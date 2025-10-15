@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    text-align: center;
+}
+header {
+    background-color: #0078D7;
+    color: white;
+    padding: 15px 0;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+main{
+    padding: 40px 20px;
+}
+img {
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0078D7;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #005ea0;
+}
+footer {
+    margin-top: 40px;
+    background-color: #0078D7;
+    color: white;
+    padding: 10px 0;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: O.3s;
+    font-weight: 500;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+    .button-container {
+        text-align: center;
+        margin-top: 100px;
+    } 
+    body {
+        font-family: "poppins" , Arial, sans-serif;
+        background-color: #f9f9f9;
+        color: #333;
+        line-height: 1.8;
+        margin: 0;
+        padding: 0;
+    }
+    header{ 
+        text-align: center;
+        background-color:#4CAF50;
+        color: white;
+        padding: 40px 20px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    h1{
+        font-size: 36px;
+        margin: 0;
+    }
+    main {
+        max-width: 800px;
+        margin: 60px auto;
+        background: white;
+        padding: 40px 50px;
+        border-radius: 15px;
+        box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    }
+    p {
+        text-align: justify;
+        margin-bottom: 20px;
+        font-size: 17px;
+    }
+    a.back-home {
+        display: inline-block;
+        margin-top: 30px;
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+    a.back-home;hover {
+        background-color: #45a049;
+    }
